@@ -123,6 +123,8 @@ class Particle (object):
         fig1 = plt.figure()
         ax1 = fig1.add_subplot(111)
         
+        fig2 = plt.figure()
+        ax2 = fig2.add_subplot(111)
         
         if hasattr(self,'xv'):
 
